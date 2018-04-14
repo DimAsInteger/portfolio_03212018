@@ -28,7 +28,8 @@ a:hover, a:active, a:focus {
 p {
   padding: 0;
   margin: 0 0 10px 0;
-  color: #fff;
+  /*color: #fff;*/
+  color: #000;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -132,15 +133,29 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
+
 #intro {
-  display: table;
-  width: 100%;
+  padding: 60px 0;*
   height: 100%;
-  background: url("../img/me7.jpg");
+  background: url("../img/3.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
+  background-position: center;
+  font-size: 20px;
 }
 
+/*
+#intro {
+  /*display: table;*/
+  /*
+  width: 100%;
+  height: 100%;
+  background: url("../img/2.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+
+}
+*/
 #intro .carousel-item {
   width: 100%;
   height: 100vh;
@@ -354,7 +369,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 8px 10px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #fff;
+  color: 	#2F4F4F; /*THIS SECTION ALTERED TO AFFECT NAV BAR COLOR LISTING 04142018 */
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 13px;
@@ -556,8 +571,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-header p {
   text-align: center;
   padding-bottom: 30px;
-  /*color: #000;*/
-  color: #fff;
+  color: #000;
+  /*color: #fff;*/
   /*color: #000059;*/
   /*color: #18d26e;*/
   /*color: #022047;*/
@@ -572,9 +587,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 */
 
 #about {
-  padding: 120px 0;*
+  padding: 60px 0;*
   height: 100%;
-  background: url("../img/me7.jpg");
+  background: url("../img/me7_edit2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -677,7 +692,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: auto;
   */
 
-  padding: 120px 0;*
+  padding: 60px 0;*
   height: 100%;
   background: url("../img/me7.jpg");
   /*background-repeat: no-repeat;*/
@@ -686,6 +701,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 20px;
 }
 
+/*#github {
+  margin-top: 20px;
+}
+*/
 #portfolio #portfolio-flters {
   padding: 0;
   margin: 5px 0 35px 0;
@@ -831,7 +850,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Contact Section
 --------------------------------*/
 #contact {
-  background: url("../img/me7.jpg");
+  background: url("../img/me7_edit2.jpg");
   background-repeat: no-repeat;
   background-size: auto;
   padding: 60px 0;
